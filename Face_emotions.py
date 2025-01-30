@@ -9,7 +9,7 @@ while True:
     frame=er.recognise_emotion(frame,return_type='BGR')
     cv2.imshow("Frame",frame)
     key=cv2.waitKey(1)
-    if key==ord("a"):
+    if key==ord("s"):
         break
 cam.release()
 cv2.destroyAllWindows()
